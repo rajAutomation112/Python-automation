@@ -7,3 +7,4 @@ def test_login(setup):
     lpage = LoginPage(driver)
     lpage.login(user,passw)
     #assert "Dashboard" in setup.title
+    print("successful")
